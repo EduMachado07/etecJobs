@@ -1,11 +1,45 @@
-# Sample Snack app
+# Etec Jobs
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+![Preview-Screens](https://github.com/EduMachado07/etecJobs/blob/main/assets/etecJobs.png)
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+Ideia do projeto:
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+_"app mobile para visualizar vagas de emprego."_
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+Aplicação mobile desenvolvida durante um evento de Hackathon organizado pelos professores da intuição de ensino ETEC. 
+Para o desafio foi fornecido uma API que consulta as vagas enviadas pelas empresas, e tinha como objetivo principal, criar um aplicativo para permitir a visualização dessas vagas sejam elas emprego, estágio ou jovem aprendiz.
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+## Motivo
+
+Este projeto faz parte do meu portfólio.
+
+Este projeto foi desenvolvido durante um Hackathon promovido pelos professores da ETEC.
+Se você tiver qualquer feedback ficarei muito feliz em receber! Toda sugestão é muito bem-vinda para que eu continue melhorando como profissional.
+
+Email: eduardo.silvamachado07@gmail.com
+
+Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/eduardo-machado-dev/)
+
+## Requisitos
+
+- Renderizar todas as informações das vagas com as suas devidas imagens (emprego, estágio ou jovem aprendiz)
+- Paginação - organizar as vagas em páginas
+- Busca de vaga pelo nome
+- Construir o design sob o layout fornecido
+- Utilizar a plataforma [Expo](https://expo.dev/) para desenvolvimento do app
+
+## Funcionalidades Finais
+
+- Paginação
+- Busca de vaga pelo nome e filtro por tipo (emprego, estágio e jovem aprendiz)
+- Modo claro e noturno
+- Recarregar página
+- Compartilharmento de vaga
+- Favoritar vaga
+
+## Processo
+
+### **1. Desafio**
+
+Recebemos a proposta do desafio e os requisitos iniciais. Além disso, foi fornecido a API com as vagas. O app deveria ter paginação, filtragem das vagas e seguir layout de exemplo, podendo incrementar funcionalidades para impressionar os avaliadores.
+> https://etecsjcampos.com.br/api/api.php?inicio=1&quantidade=1
