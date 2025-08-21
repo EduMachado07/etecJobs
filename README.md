@@ -9,6 +9,8 @@ _"app mobile para visualizar vagas de emprego."_
 Aplicação mobile desenvolvida durante um evento de Hackathon organizado pelos professores da intuição de ensino ETEC. 
 Para o desafio foi fornecido uma API que consulta as vagas enviadas pelas empresas, e tinha como objetivo principal, criar um aplicativo para permitir a visualização dessas vagas sejam elas emprego, estágio ou jovem aprendiz.
 
+Faça download do app [aqui](https://drive.google.com/file/d/1b6FxTJDU-GvtZ0CRqPeFmiGuM87XTGCm/view?pli=1). **Disponível apenas para Android.**
+
 ## Motivo
 
 Este projeto faz parte do meu portfólio.
@@ -22,20 +24,22 @@ Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/eduardo-machado-dev/
 
 ## Requisitos
 
-- Renderizar todas as informações das vagas com as suas devidas imagens (emprego, estágio ou jovem aprendiz)
-- Paginação - organizar as vagas em páginas
-- Busca de vaga pelo nome
-- Construir o design sob o layout fornecido
-- Utilizar a plataforma [Expo](https://expo.dev/) para desenvolvimento do app
+- Renderizar vagas: exibir todas as informações de cada vaga e imagem conforme o tipo (emprego, estágio ou jovem aprendiz) via API.
+- Paginação: organizar as vagas em páginas para facilitar a navegação do usuário.
+- Busca: permitir a pesquisa de vagas pelo nome.
+- Layout: seguir o design definido no protótipo/layout fornecido.
+- Plataforma: desenvolvimento do aplicativo utilizando Expo (React Native).
 
 ## Funcionalidades Finais
 
-- Paginação
-- Busca de vaga pelo nome e filtro por tipo (emprego, estágio e jovem aprendiz)
-- Modo claro e noturno
-- Recarregar página
-- Compartilharmento de vaga
-- Favoritar vaga
+- Paginação: navegação entre páginas de vagas.
+- Busca e Filtro: busca por nome de vaga e filtro por tipo (emprego, estágio ou jovem aprendiz).
+- Modo Claro e Escuro: alternância entre temas claro e noturno.
+- Atualização: recurso de recarregar a lista de vagas (pull to refresh).
+- Compartilhamento: permitir que o usuário compartilhe uma vaga em outras plataformas.
+- Favoritos: possibilitar que o usuário marque e gerencie vagas como favoritas.
+
+![Preview-Screens](https://github.com/EduMachado07/etecJobs/blob/main/assets/wall.png)
 
 ## APIs
 
@@ -85,11 +89,16 @@ Jovem Aprendiz:
 
 ## Construído com
 
-- [JavaScript](https://www.linkedin.com/in/eduardo-machado-dev/)
-- [React Native](https://www.linkedin.com/in/eduardo-machado-dev/)
-- [Axios](https://expo.dev/)
-- [Expo](https://expo.dev/)
-- [expo-sqlite](https://expo.dev/)
-- [@react-navigation/stack](https://expo.dev/)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) 
+- [React Native](https://reactnative.dev/)  
+- [Expo](https://expo.dev/) 
+- [Axios](https://axios-http.com/)
+- [expo-sqlite](https://docs.expo.dev/versions/latest/sdk/sqlite/)  
+- [React Navigation](https://reactnavigation.org/)
+- [@react-navigation/stack](https://reactnavigation.org/docs/stack-navigator/)
+- [@expo/vector-icons](https://icons.expo.fyi/)
+- [React Native Animatable](https://github.com/oblador/react-native-animatable)
+
+
 
 
