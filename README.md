@@ -6,7 +6,7 @@ Ideia do projeto:
 
 _"app mobile para visualizar vagas de emprego."_
 
-Aplicação mobile desenvolvida durante um evento de Hackathon organizado pelos professores da intuição de ensino ETEC. 
+Aplicação mobile desenvolvida durante um evento de Hackathon organizado pelos professores da ETEC de São José dos Campos. 
 Para o desafio foi fornecido uma API que consulta as vagas enviadas pelas empresas, e tinha como objetivo principal, criar um aplicativo para permitir a visualização dessas vagas sejam elas emprego, estágio ou jovem aprendiz.
 
 Faça download do app [aqui](https://drive.google.com/file/d/1b6FxTJDU-GvtZ0CRqPeFmiGuM87XTGCm/view?pli=1). **Disponível apenas para Android.**
