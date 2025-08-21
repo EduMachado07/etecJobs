@@ -37,9 +37,59 @@ Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/eduardo-machado-dev/
 - Compartilharmento de vaga
 - Favoritar vaga
 
-## Processo
+## APIs
 
-### **1. Desafio**
+### Vagas
 
-Recebemos a proposta do desafio e os requisitos iniciais. Além disso, foi fornecido a API com as vagas. O app deveria ter paginação, filtragem das vagas e seguir layout de exemplo, podendo incrementar funcionalidades para impressionar os avaliadores.
+Url base:
+
+> https://etecsjcampos.com.br/api/api.php
+
+Para paginação, recebe dois parâmetros na url, **_inicio_** e **_quantidade_**.
+
+**Exemplo:**
+
 > https://etecsjcampos.com.br/api/api.php?inicio=1&quantidade=1
+
+**Retorno:**
+
+```
+[
+  {
+    "cdvaga": "305",
+    "id_tipo_vaga": "2",
+    "nm_vaga": "ESTÁGIO ADMINISTRATIVO",
+    "ds_vaga": "ESTÁGIO - ESTÁGIO ADMINISTRATIVO\r\nEnsino médio - Período noturno ID 753 / 823\r\n\r\nLocal: Centro - São José dos Campos - SP\r\n\r\nDe segunda a sexta-feira\r\n\r\nDas 10h30 às 17h30 - Com 1 (uma) hora de intervalo\r\n\r\nR$800,00\r\nAuxílio transporte\r\nAuxílio refeição no valor de R$150,00\r\n\r\nAtividades : Auxiliar no atendimento ao cliente, auxiliar na recepção de visitantes, auxiliar no controle e direcionamento de chamadas telefônicas, auxiliar na anotação de recados e transmissão dos mesmos, auxiliar no controle de correspondência recebendo e direcionando, auxiliar nos envios de pacotes e e-mails, auxiliar na higiene e organização do ambiente de trabalho, auxiliar em tarefas administrativas, auxiliar no controle de consumo mensalmente no site da EDP/COMGÁS/SABESP.\r\n\r\nEnvie seu currículo: 12 98123-1237",
+    "ds_keywords": "ESTÁGIO ADMINISTRATIVO",
+    "st_vaga": "1",
+    "dt_registro_vaga": "2025-08-15 18:51:03",
+    "url_imagem_vaga": "0",
+    "nm_tipo_vaga": "Vaga de Estágio"
+  }
+]
+```
+
+### Imagens
+
+Emprego:
+
+> https://etecsjcampos.com.br/vagas/1.png
+
+Estágio:
+
+> https://etecsjcampos.com.br/vagas/2.png
+ 
+Jovem Aprendiz:
+
+> https://etecsjcampos.com.br/vagas/3.png
+
+## Construído com
+
+- [JavaScript](https://www.linkedin.com/in/eduardo-machado-dev/)
+- [React Native](https://www.linkedin.com/in/eduardo-machado-dev/)
+- [Axios](https://expo.dev/)
+- [Expo](https://expo.dev/)
+- [expo-sqlite](https://expo.dev/)
+- [@react-navigation/stack](https://expo.dev/)
+
+
