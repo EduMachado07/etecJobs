@@ -20,7 +20,7 @@ Se você tiver qualquer feedback ficarei muito feliz em receber! Toda sugestão 
 
 Email: eduardo.silvamachado07@gmail.com
 
-Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/eduardo-machado-dev/)
+Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/eduardo-machado-fullstack/)
 
 ## Requisitos
 
